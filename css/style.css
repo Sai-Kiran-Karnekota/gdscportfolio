@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --orange: #fe7504;
+    --orange: #fec004;
     --shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     --border: .1rem solid rgba(0, 0, 0, .1);
+
 }
 
 * {
@@ -25,35 +26,29 @@ html {
     scroll-behavior: smooth;
 }
 
-/* s5 */
 html::-webkit-scrollbar {
     width: 2rem;
 }
 
-/* s6 */
 html::-webkit-scrollbar-track {
-    background: #fff;
+    background: rgb(40, 40, 40);
 }
 
-/* s7 */
 html::-webkit-scrollbar-thumb {
     background: var(--orange);
+    
 }
 
-/* s8 */
 body {
-    background: #eee;
-    /* padding-right: 5rem; */
+    background: rgb(28, 28, 28);
 }
 
-/* s21 */
 section {
     padding: 2rem 9%;
     min-height: 100vh;
     scroll-snap-align: center;
 }
 
-/* s30 */
 .heading {
     text-align: center;
     font-size: 6rem;
@@ -61,7 +56,7 @@ section {
     padding-top: 4rem;
     margin-top: 1rem;
     text-transform: uppercase;
-    color: #222;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -70,7 +65,6 @@ section {
     color: var(--orange);
 }
 
-/* s28 */
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -86,39 +80,33 @@ section {
     letter-spacing: .2rem;
 }
 
-/* s9 */
 header {
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #eee;
+    background: rgb(0, 0, 0);
     z-index: 1000;
     width: 100%;
-    /* border-bottom: #222 .1rem solid; */
 }
 
-/* s10 */
 header .navbar {
     padding: 1.5rem;
-    /* margin-right: 30rem; */
 }
 
-/* s11 */
 header .navbar a {
+    font-variant-caps: all-petite-caps;
     padding: 1.5rem;
     font-size: 2rem;
-    color: #222;
+    color: rgb(255, 190, 37);
     font-weight: 500;
 }
 
-/* s12 */
 header .navbar a:hover {
     color: var(--orange);
 
 }
 
-/* s13 */
 #menu-bar {
     position: fixed;
     z-index: 10000;
@@ -153,7 +141,7 @@ header .social-icons {
 
 header .social-icons a {
     padding: 0 1rem;
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 
@@ -183,7 +171,7 @@ header .social-icons a:hover {
 
 .home .content h3 {
     font-size: 4rem;
-    color: #222;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
 
@@ -193,7 +181,7 @@ header .social-icons a:hover {
 }
 
 .home .content p {
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
     line-height: 2;
 }
@@ -212,6 +200,7 @@ header .social-icons a:hover {
     left: 0;
     height: 100%;
     width: 100%;
+    
 }
 
 .about .row {
@@ -239,7 +228,7 @@ header .social-icons a:hover {
 }
 
 .about .content h3 {
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 4rem;
 }
 
@@ -248,7 +237,7 @@ header .social-icons a:hover {
 }
 
 .about .content .info {
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 1.7rem;
     list-style: 2;
     padding: 1rem 0;
@@ -273,7 +262,7 @@ header .social-icons a:hover {
 }
 
 .about .content .box-container .box p span {
-    color: #222;
+    color: rgba(255, 255, 255, 0.879);
 }
 
 .skills .box-container {
@@ -368,7 +357,7 @@ header .social-icons a:hover {
     flex: 1 1 30rem;
     padding: 1rem 2rem;
     box-shadow: var(--shadow);
-    background: #fff;
+    background: rgb(161, 161, 161);
     border-radius: .5rem;
 }
 
@@ -403,7 +392,9 @@ header .social-icons a:hover {
 
 .contact .row form textarea {
     height: 20rem;
+    width: auto;
     resize: none;
+    padding: 1rem;
 }
 
 .contact .row form .btn {
@@ -414,8 +405,8 @@ header .social-icons a:hover {
 .footer {
     padding: 2.5rem 1rem;
     font-size: 2rem;
-    color: #666;
-    background: #fff;
+    color: rgb(158, 158, 158);
+    background: rgba(14, 14, 14, 0.826);
     text-align: center;
 }
 
@@ -425,7 +416,7 @@ header .social-icons a:hover {
 }
 
 .footer a:hover {
-    color: #666;
+    color: rgb(255, 234, 0);
 }
 
 
@@ -443,7 +434,7 @@ header .social-icons a:hover {
     }
 
     header {
-        background: #fff;
+        background: rgb(23, 23, 23);
         width: 100%;
         min-height: 100vh;
         display: flex;
